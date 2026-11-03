@@ -1,28 +1,64 @@
-# Calculadora Tributária NAF
+🧮 Calculadora NAF
 
-Aplicação React para estimar e comparar a carga tributária mensal de Pessoa Física e Pessoa Jurídica. Inclui as profissões psicólogo, arquiteto, advogado, médico e dentista; para médico e dentista, aplica o Fator R e indica o Anexo III ou V.
+Sobre o projeto
 
-## Requisitos
+A Calculadora NAF é uma aplicação web desenvolvida com React, com o objetivo de auxiliar na comparação de impostos entre Pessoa Física (PF) e Pessoa Jurídica (PJ).
 
-- Node.js 24 ou superior (usa o módulo nativo `node:sqlite`)
-- npm
+O sistema permite realizar simulações tributárias, visualizar comparativos, consultar históricos e gerar relatórios.
 
-## Como iniciar
+🚀 Tecnologias utilizadas
 
-1. No terminal, entre na pasta do projeto.
-2. Execute `npm install`.
-3. Em um terminal, execute `npm start` para iniciar a API e o banco SQLite em `data/calculadora.db`.
-4. Em outro terminal, execute `npm run dev` e abra o endereço mostrado pelo Vite (normalmente `http://localhost:5173`).
+* React
+* JavaScript
+* React Router DOM
+* SQLite
+* HTML e CSS
 
-## Configuração opcional de e-mail
+⚙️ Funcionalidades
 
-Crie um arquivo `.env` na raiz, com `EMAIL_USER`, `EMAIL_PASS`, `NAF_EMAIL` e, opcionalmente, `JWT_SECRET`. Sem essas variáveis o formulário de contato informa claramente que o envio não está configurado; os cálculos, histórico e exportações continuam funcionando.
+* Cadastro e login de usuários.
+* Calculadora de impostos para PF e PJ.
+* Comparativo entre Pessoa Física e Jurídica.
+* Cálculo do Fator R para médicos e dentistas.
+* Histórico de simulações.
+* Exportação de relatórios em PDF.
+* Exportação do histórico em CSV.
+* Tema claro e escuro.
+* Perguntas frequentes (FAQ).
+* Interface responsiva.
 
-## Funcionalidades
+🗄️ Banco de dados
 
-- Rotas: calculadora, comparativo, histórico, FAQ, sobre/contato e página 404.
-- Memória de cálculo PF e PJ, gráfico de barras e PDF do comparativo.
-- Histórico persistido em SQLite e exportação em CSV.
-- Tema claro/escuro persistido no navegador.
-- Formulários com rótulos, foco visível, mensagens anunciadas e layout responsivo.
+O projeto utiliza SQLite para armazenar usuários e simulações. É um banco de dados leve, que dispensa a necessidade de um servidor separado.
 
+📂 Arquitetura
+
+O projeto utiliza uma arquitetura baseada em componentes, com organização por páginas e componentes reutilizáveis.
+
+A navegação é realizada por meio do React Router DOM.
+
+▶️ Como executar o projeto
+
+1. Clone o repositório:
+
+git clone https://github.com/Pedroaraujo1918/Calculadora-NAF.git
+
+2. Entre na pasta:
+
+cd Calculadora-NAF
+
+3. Instale as dependências:
+
+npm install
+
+4. Execute o projeto:
+
+npm run dev
+
+⚠️ Observação
+
+Os cálculos apresentados são estimativas baseadas nas alíquotas e regras configuradas para fins acadêmicos, não substituindo uma análise contábil profissional.
+
+👨‍💻 Desenvolvido para o projeto NAF
+
+Projeto acadêmico desenvolvido para facilitar simulações e comparações tributárias entre Pessoa Física e Pessoa Jurídica.
