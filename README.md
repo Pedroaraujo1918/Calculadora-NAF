@@ -26,4 +26,3 @@ Crie um arquivo `.env` na raiz, com `EMAIL_USER`, `EMAIL_PASS`, `NAF_EMAIL` e, o
 - Tema claro/escuro persistido no navegador.
 - Formulários com rótulos, foco visível, mensagens anunciadas e layout responsivo.
 
-Os resultados são estimativas e não substituem a orientação de um contador.
